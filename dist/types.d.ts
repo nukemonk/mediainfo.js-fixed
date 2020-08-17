@@ -104,8 +104,9 @@ interface Track {
         | 'Image'
         | 'Chapters'
         | 'Menu'
+        | 'Other'
 
-    [k: string]: string
+    [k: string]: string | {}
 
     // Endless more properties:
     // https://github.com/MediaArea/MediaInfoLib/tree/master/Source/Resource/Text/Stream
